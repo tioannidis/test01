@@ -1,0 +1,125 @@
+Faceback (most recent call last):
+  File "Documents/site-packages/django/core/management/commands/runserver.py", line 61, in execute
+    super().execute(*args, **options)
+  File "Documents/site-packages/django/core/management/base.py", line 371, in execute
+    output = self.handle(*args, **options)
+  File "Documents/site-packages/django/core/management/commands/runserver.py", line 68, in handle
+    if not settings.DEBUG and not settings.ALLOWED_HOSTS:
+  File "Documents/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    self._setup(name)
+  File "Documents/site-packages/django/conf/__init__.py", line 70, in _setup
+    self._wrapped = Settings(settings_module)
+  File "Documents/site-packages/django/conf/__init__.py", line 177, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "Library/python38/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'demo01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/private/var/mobile/Containers/Shared/AppGroup/C4EF0D1D-DED3-40E1-A322-F21A53026D70/File Provider Storage/Repositories/django/demo01/manage.py", line 24, in <module>
+    main()
+  File "/private/var/mobile/Containers/Shared/AppGroup/C4EF0D1D-DED3-40E1-A322-F21A53026D70/File Provider Storage/Repositories/django/demo01/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "Documents/site-packages/django/core/management/__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "Documents/site-packages/django/core/management/__init__.py", line 395, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "Documents/site-packages/django/core/management/base.py", line 343, in run_from_argv
+    connections.close_all()
+  File "Documents/site-packages/django/db/utils.py", line 232, in close_all
+    for alias in self:
+  File "Documents/site-packages/django/db/utils.py", line 226, in __iter__
+    return iter(self.databases)
+  File "Documents/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "Documents/site-packages/django/db/utils.py", line 153, in databases
+    self._databases = settings.DATABASES
+  File "Documents/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    self._setup(name)
+  File "Documents/site-packages/django/conf/__init__.py", line 70, in _setup
+    self._wrapped = Settings(settings_module)
+  File "Documents/site-packages/django/conf/__init__.py", line 177, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "Library/python38/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'demo01'
+Traceback (most recent call last):
+  File "Documents/site-packages/django/core/management/base.py", line 330, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "Documents/site-packages/django/core/management/commands/runserver.py", line 61, in execute
+    super().execute(*args, **options)
+  File "Documents/site-packages/django/core/management/base.py", line 371, in execute
+    output = self.handle(*args, **options)
+  File "Documents/site-packages/django/core/management/commands/runserver.py", line 68, in handle
+    if not settings.DEBUG and not settings.ALLOWED_HOSTS:
+  File "Documents/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    self._setup(name)
+  File "Documents/site-packages/django/conf/__init__.py", line 70, in _setup
+    self._wrapped = Settings(settings_module)
+  File "Documents/site-packages/django/conf/__init__.py", line 177, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "Library/python38/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'demo01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/private/var/mobile/Containers/Shared/AppGroup/C4EF0D1D-DED3-40E1-A322-F21A53026D70/File Provider Storage/Repositories/django/demo01/manage.py", line 24, in <module>
+    main()
+  File "/private/var/mobile/Containers/Shared/AppGroup/C4EF0D1D-DED3-40E1-A322-F21A53026D70/File Provider Storage/Repositories/django/demo01/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "Documents/site-packages/django/core/management/__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "Documents/site-packages/django/core/management/__init__.py", line 395, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "Documents/site-packages/django/core/management/base.py", line 343, in run_from_argv
+    connections.close_all()
+  File "Documents/site-packages/django/db/utils.py", line 232, in close_all
+    for alias in self:
+  File "Documents/site-packages/django/db/utils.py", line 226, in __iter__
+    return iter(self.databases)
+  File "Documents/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "Documents/site-packages/django/db/utils.py", line 153, in databases
+    self._databases = settings.DATABASES
+  File "Documents/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    self._setup(name)
+  File "Documents/site-packages/django/conf/__init__.py", line 70, in _setup
+    self._wrapped = Settings(settings_module)
+  File "Documents/site-packages/django/conf/__init__.py", line 177, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "Library/python38/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'demo01'
+>>> 
